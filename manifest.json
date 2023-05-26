@@ -1,0 +1,11 @@
+{
+    "name": "Toggle Swagger",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Open all Tabs in Swagger UI",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}
