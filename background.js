@@ -1,5 +1,5 @@
 function clickCategory() {
-    document.querySelectorAll("h4.opblock-tag[data-is-open='false']").forEach((item) => item.click());
+    document.querySelectorAll(".opblock-tag[data-is-open='false']").forEach(item => item.click());
 }
 
 chrome.action.onClicked.addListener((tab) => {
